@@ -1,0 +1,48 @@
+{
+  "compilerOptions": {
+    /* ✅ Modern JavaScript target (supports async/await, classes, etc.) */
+    "target": "es2017",
+
+    /* ✅ Include latest DOM APIs + async features */
+    "lib": ["dom", "dom.iterable", "esnext"],
+
+    /* ✅ Allow importing JS files (in case you have vendor libs) */
+    "allowJs": true,
+
+    /* ✅ Speeds up build by skipping type checking of dependencies */
+    "skipLibCheck": true,
+
+    /* ✅ Better compatibility with CommonJS/ESM */
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+
+    /* ✅ Enforce strict type checking */
+    "strict": true,
+
+    /* ✅ File/Folder case consistency across OS */
+    "forceConsistentCasingInFileNames": true,
+
+    /* ✅ Warn if switch cases fall through */
+    "noFallthroughCasesInSwitch": true,
+
+    /* ✅ Modern module resolution for React apps */
+    "module": "esnext",
+    "moduleResolution": "node",
+
+    /* ✅ Allow importing JSON files */
+    "resolveJsonModule": true,
+
+    /* ✅ Ensures every file is a module (no accidental globals) */
+    "isolatedModules": true,
+
+    /* ✅ We’re not emitting compiled files, CRA handles that */
+    "noEmit": true,
+
+    /* ✅ New JSX transform (React 17+) */
+    "jsx": "react-jsx",
+
+    /* ✅ Load Leaflet + Leaflet Draw types automatically */
+    "types": ["leaflet", "leaflet-draw"]
+  },
+  "include": ["src"]
+}
